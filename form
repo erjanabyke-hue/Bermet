@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form.com</title>
+</head>
+
+<body>
+    <form action="/регистрация" method="get">
+        <label for="Ф.И.О">Фамилия</label>
+        <input type="text" placeholder="Фамилия">
+        <label for="Имя">Имя</label>
+        <input type="text" placeholder="Имя">
+        <label for="дата рождения"></label>
+        <input type="number" placeholder="д.р.г">
+        <button>Кируу</button>
+        <label for="agree">Туура</label>
+        <input type="checkbox" name="agree" id="agree">
+        <label for="жынысы">Жынысы</label>
+        <select name="" id="">
+            <option value="">Эркек</option>
+            <option value="">Аял</option>
+            <option value="">Белгиленбеген</option>
+        </select>
+        </label>
+        <ul>
+            <li>
+                <label for="region">Регион</label>
+                <select name="" id="">
+                    <option value="">Ош</option>
+                    <option value="">Талас</option>
+                    <option value="">Чуй</option>
+                    <option value="">Ысык-Кол</option>
+                    <option value="">Нарын</option>
+                    <option value="">Жалал-Абад</option>
+                    <option value="">Баткен</option>
+                </select>
+            </li>
+        </ul>
+    </form>
+</body>
+
+
+</html>
